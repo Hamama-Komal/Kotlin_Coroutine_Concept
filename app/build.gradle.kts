@@ -53,4 +53,11 @@ dependencies {
     // Coroutines Dependency
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1-Beta")
+
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel:2.7.0")
+    // Lifecycles only (without ViewModel or LiveData)
+    implementation("androidx.lifecycle:lifecycle-runtime:2.7.0")
+
+
 }
